@@ -86,4 +86,6 @@ Tutorial_Panama
 ├── Figures/                # Figuras
 ├── notebooks/              # Jupyter notebooks utilizados para cada uno de los análisis
 ├── Dataset/                # Dataset a utilizar para análisis filogenéticos
+├── installing.sh           # Archivo de instalación
 └── README.md               # Este archivo
+
