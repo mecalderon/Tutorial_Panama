@@ -69,6 +69,15 @@ Construcción de relaciones evolutivas entre las muestras para explorar la diver
 ## Esquema del pipeline
 ![Pipeline](https://raw.githubusercontent.com/mecalderon/Tutorial_Panama/main/Figures/Pipeline.png)
 
+## Instalación de herramientas
+Clona el repositorio y ejecuta el script de instalación con los siguientes comandos:
+
+```
+git clone https://github.com/mecalderon/Tutorial_Panama.git
+cd Tutorial_Panama
+bash installing.sh
+```
+
 ## Estructura del repositorio 
 
 ```bash
