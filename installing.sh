@@ -16,8 +16,6 @@ source activate microenv
 
 mamba install "kraken2>=2.1.2" "fastqc>=0.11.9" "trim-galore=0.6.6" prokka iqtree "snp-sites>=2.5.1" "snp-dists=0.8.2" quast  bedtools "unicycler>=0.5.0" "snippy>=4.6.0" "ncbi-amrfinderplus==3.10.30" "perl>=5.32.1,<6.0a0" "mafft==7.515" -y
 
-amrfinder --update
-
 echo "############# microenv environment created and were installed the following packages: ##################"
 echo "########## kraken2>=2.1.2 fastqc>=0.11.9 trim-galore=0.6.6 prokka iqtree snp-sites>=2.5.1 ##############"
 echo "########### snp-dists=0.8.2 quast  bedtools seqsero2  unicycler>=0.5.0 snippy>=4.6.0 ###################"
@@ -68,3 +66,8 @@ conda deactivate
 echo "###################### srst2_env environment created and srst2 was installed ######################"
 echo "############################# activate using: conda activate srst2_env ############################"
 
+echo "###################### AMRFinderPlus Database download ######################"
+conda activate microenv
+amrfinder --update
+
+conda deactivate
