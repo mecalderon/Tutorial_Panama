@@ -39,7 +39,7 @@ Este tutorial presenta un flujo de trabajo básico para el análisis bioinformá
 
 El pipeline utilizado en este tutorial incluye las siguientes etapas principales:
 
-1. Control de calidad (QC)
+1. **Control de calidad (QC)**
 Evaluación y filtrado de las lecturas crudas de secuenciación utilizando:
 - **FastQC:** evaluación de calidad de lecturas
 
@@ -47,11 +47,11 @@ Evaluación y filtrado de las lecturas crudas de secuenciación utilizando:
 
 - **Kraken2:** clasificación taxonómica y control de contaminación
 
-2. Ensamblaje de genomas
+2. **Ensamblaje de genomas**
 
 - **Unicycler:** ensamblaje de genomas bacterianos a partir de lecturas de secuenciación
 
-3. Caracterización y tipificación
+3. **Caracterización y tipificación**
 
 Identificación de características genómicas relevantes:
 
@@ -61,7 +61,7 @@ Identificación de características genómicas relevantes:
 
 - **AMRFinderPlus:** detección de genes de resistencia antimicrobiana
 
-4. Análisis filogenético
+4. **Análisis filogenético**
 
 Construcción de relaciones evolutivas entre las muestras para explorar la diversidad genética y posibles agrupamientos epidemiológicos.
 
