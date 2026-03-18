@@ -2,17 +2,17 @@
 
 Bienvenidos al repositorio del tutorial de la Capacitación en Secuenciación por NGS y análisis bioinformático de *Salmonella* spp. aplicada a la vigilancia en salud pública.
 
-Este repositorio funciona como un recurso educativo que presenta los principales pasos del análisis bioinformático de patógenos entéricos, con un enfoque específico en el análisis genómico de *Salmonella* spp. utilizando datos de NGS (secuenciación de nueva generación).
-
-El material está diseñado para apoyar el proceso de capacitación en genómica aplicada a la vigilancia epidemiológica, incluyendo análisis filogenéticos y exploración de datos genómicos.
+Este repositorio constituye un recurso educativo que describe, paso a paso, el proceso de secuenciación mediante NGS y el análisis bioinformático de patógenos entéricos, con énfasis en el análisis genómico de *Salmonella* spp. a partir de datos de secuenciación de nueva generación.
 
 ## Descripción general 
 
 En este repositorio encontrarás:
 
+- Protocolos estándar de laboratorio.
+
 - Jupyter Notebooks utilizados en cada etapa del análisis bioinformático.
 
-- Jupyter Notebooks destinados al postprocesamiento de los datos.
+- Notebooks destinados al postprocesamiento de los datos.
 
 - Conjuntos de datos de ejemplo para realizar análisis filogenéticos.
 
@@ -22,9 +22,9 @@ En este repositorio encontrarás:
 
 ## Contexto 
 
-La secuenciación de genomas completos mediante NGS se ha convertido en una herramienta clave para la vigilancia genómica de patógenos transmitidos por alimentos.
+La secuenciación de genomas completos mediante NGS se ha consolidado como una herramienta fundamental para la vigilancia genómica de patógenos transmitidos por alimentos.
 
-En particular, *Salmonella* spp. es uno de los patógenos bacterianos más relevantes para la salud pública a nivel mundial. El análisis genómico permite:
+En particular, *Salmonella* spp. es uno de los patógenos bacterianos de mayor relevancia para la salud pública a nivel mundial. El análisis genómico permite:
 
 - Identificar relaciones filogenéticas entre aislamientos.
 
@@ -34,10 +34,9 @@ En particular, *Salmonella* spp. es uno de los patógenos bacterianos más relev
 
 - Apoyar la toma de decisiones en vigilancia epidemiológica.
 
-Este tutorial presenta un flujo de trabajo básico para el análisis bioinformático de datos de Salmonella spp.,incluyendo control de calidad, ensamblaje de genomas, caracterización genómica y análisis filogenético.
+Este tutorial presenta un flujo de trabajo básico para el análisis bioinformático de datos de *Salmonella* spp., incluyendo control de calidad, ensamblaje de genomas, caracterización genómica y análisis filogenético.
 
-
-## Pipeline de análisis
+## **Pipeline de análisis bioinformático**
 
 El pipeline utilizado en este tutorial incluye las siguientes etapas principales:
 
@@ -89,7 +88,7 @@ Tutorial_Panama
 ├── Figures/                   # Figuras
 ├── Notebooks_pipeline/        # Notebooks utilizados en cada etapa del pipeline bioinformático
 ├── Notebooks_procesamiento/   # Notebooks para el postprocesamiento de datos
-├── Dataset/                   # Datos para análisis filogenéticos
+├── SOPs                       # Protocolos estándar de laboratorio
 ├── installing.sh              # Script de instalación
 └── README.md                  # Archivo principal de documentación
 
