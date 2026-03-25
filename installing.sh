@@ -36,10 +36,8 @@ echo "##################### roary were installing within microenv environnent  #
 echo "################ starting ariba creation and installation #############"
 conda create -n ariba_env -y
 source activate ariba_env
-sudo  apt-get update
-sudo apt-get install -y python3-dev python3-pip python3-tk zlib1g-dev bowtie2 mummer cd-hit
-export ARIBA_CDHIT=cdhit-est
-sudo pip3 install ariba
+mamba install -c bioconda mummer -y
+pip3 install ariba
 conda deactivate
 echo "###################### ariba_env environment created and ariba was installed ######################"
 echo "############################# activate using: conda activate ariba_env ############################"
